@@ -1,0 +1,102 @@
+.weather_forecast {
+    width: 280px;
+    height: auto;
+    background-color: lightblue;
+    padding: 5px;
+    color: white;
+    font-family: Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+.weather_today {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.weather_today_left {
+    width: 50%;
+	text-align: left;
+}
+
+.weather_today_right {
+	width: 50%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.weather_outlook {
+    width: 100%;
+}
+
+.weather_outlook_panel {
+    width: 100%;
+    display: flex;
+    border-top: 1px solid whitesmoke;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 2px 2px 2px;
+}
+
+.weather_outlook_panel_left {
+    width: 60%;
+	text-align: left;
+}
+
+.weather_outlook_panel_right {
+    width: 40%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.weather_city {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.weather_day {
+    font-size: 12pt;
+}
+
+.weather_date {
+    font-size: 10pt;
+}
+
+.weather_maxtemp {
+    font-size: 32pt;
+}
+
+.weather_sunrise, .weather_sunset {
+    font-size: 8pt;
+    margin-top: 5px;
+}
+
+.weather_sunrise_img, .weather_sunset_img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.weather_outlook_day {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.weather_outlook_summary {
+    font-size: 11pt;
+}
+
+.weather_outlook_max {
+    font-size: 12pt;
+}
+
+.weather_outlook_min {
+    font-size: 8pt;
+}
+
+.weather_outlook_sunrise, .weather_outlook_sunset {
+    font-size: 8pt;
+}
